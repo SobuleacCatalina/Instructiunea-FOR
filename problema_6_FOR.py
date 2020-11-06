@@ -36,7 +36,7 @@ for i in range(2,n6+1):
     if i<10:
         s6+=20+i
     else:
-        s6+=2*(i//10)+i
+        s6+=20*(10**(i//10))+i
 print("s1=",s1,sep="")
 print("s2=",s2,sep="")
 print("s3=",s3,sep="")
